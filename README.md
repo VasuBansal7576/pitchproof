@@ -6,9 +6,9 @@ Campaign research for independent creative agencies. Turn a client brief into th
 
 ## Complete source
 
-The archive contains all 175 tracked files for deployed source `b47b0004a6b935f9419ad013c457ea86c1d3e119`. Application code, migrations, tests and setup instructions are MIT-licensed. Qloo data, model services and third-party assets retain their own terms.
+The archive contains all 175 tracked files for deployed source `4578d4ac1cc25289ad04f345d3c97db752f13869`. Application code, migrations, tests and setup instructions are MIT-licensed. Qloo data, model services and third-party assets retain their own terms.
 
-Archive SHA256 `d8fbe6ce2dbab0eec755368e5aa421be101ce8ed0a63ae8cdff831e800f4ed9c`.
+Archive SHA256 `c9b87368b78356ed90be91e95c76e27d2bfcb02634f2e9965d33827ad80dcdd2`.
 
 ```sh
 git clone https://github.com/VasuBansal7576/pitchproof.git
@@ -32,7 +32,7 @@ Recorded stage attempts include failures. Request durations may overlap and do n
 
 ## Verification and limits
 
-The reliability release passes 138 deterministic behavior tests, TypeScript and production build checks. Tests use synthetic provider fixtures and local D1. Actual provider/browser and creative acceptance are separate gates; a passing test suite is not proof that every generated proposal is client-ready.
+The reliability release passes 141 deterministic behavior tests, TypeScript and production build checks. Tests use synthetic provider fixtures and local D1. Actual provider/browser and creative acceptance are separate gates; a passing test suite is not proof that every generated proposal is client-ready.
 
 Qloo records retain exact entity IDs, reference roles, rank, original metrics, timestamps, query provenance and geographic scope. Only place research applies the requested location filter. Aggregate associations do not prove actual customer tastes, purchases, causality, product facts or endorsement. Inspiration does not grant advertising rights.
 
