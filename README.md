@@ -6,9 +6,9 @@ Campaign research for independent creative agencies. Turn a client brief into th
 
 ## Get the complete source
 
-The archive contains all 166 tracked source files for deployed source `334f8f6cba124a49b91242c4c2ec30b180992a0e`. It includes application code, assets, migrations, tests, setup instructions and judging drafts. The repository root keeps the MIT license visible.
+The archive contains all 166 tracked source files for deployed source `b271861a99bd7fc08fa6a1ea8148b522777b4158`. It includes application code, assets, migrations, tests, setup instructions and judging drafts. The repository root keeps the MIT license visible.
 
-Archive SHA256 `458b932e55043cab05092e2f0a7dd562242f504aae74e4e4902bcb38793a9d9c`.
+Archive SHA256 `0a223ecbf035ae74f01dc047564d6bed7ffdd1b411ebdab8e661542a79e93309`.
 
 ```sh
 git clone https://github.com/VasuBansal7576/pitchproof.git
