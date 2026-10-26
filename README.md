@@ -6,9 +6,9 @@ Campaign research for independent creative agencies. Turn a client brief into th
 
 ## Get the complete source
 
-The archive contains all 163 tracked source files for deployed source `9c41bd5a360abde52cb10397cabb82848d8cfd7e`. It includes application code, assets, migrations, tests, setup instructions and judging drafts. The repository root keeps the MIT license visible.
+The archive contains all 166 tracked source files for deployed source `334f8f6cba124a49b91242c4c2ec30b180992a0e`. It includes application code, assets, migrations, tests, setup instructions and judging drafts. The repository root keeps the MIT license visible.
 
-Archive SHA256 `23dddf679892f0fa9cf8612127a9cc8e1281929d0006b17d1972dd58ea6bd4a5`.
+Archive SHA256 `458b932e55043cab05092e2f0a7dd562242f504aae74e4e4902bcb38793a9d9c`.
 
 ```sh
 git clone https://github.com/VasuBansal7576/pitchproof.git
@@ -38,7 +38,7 @@ The selected brief's actual HTML and six-page A4 print output were inspected. Th
 
 The embedded browser blocks native downloads. Actual Markdown preview and manual select-and-copy were checked against export text. The Copy Markdown button showed a success message but did not match the immediate clipboard read, so that button alone is not claimed as verified delivery.
 
-The source passed 79 behavior tests, TypeScript and a production build. Local tests use synthetic provider fixtures. They are separate from actual provider and semantic reviews. The opt-in verification scripts distinguish preflight, storage-only checks and real-provider smoke. They do not replace browser or agency review.
+The source passed 87 behavior tests, TypeScript and a production build. Local tests use synthetic provider fixtures. They are separate from actual provider and semantic reviews. The opt-in verification scripts distinguish preflight, storage-only checks and real-provider smoke. They do not replace browser or agency review.
 
 ## What Qloo proves here
 
@@ -53,3 +53,7 @@ No external agency has reviewed the sample. The source includes a review workshe
 The demo is public and free to use, with application and vendor capacity limits. Availability and Qloo key validity through the end of judging remain to be confirmed. No billing or recurring scheduler was enabled. No Devpost entry was submitted.
 
 MIT applies to application code. Qloo access, data, model services and third-party assets retain their own terms. Confirm commercial rights and production pricing before selling briefs. Inspiration references do not grant advertising rights or endorsement.
+
+## Performance update
+
+The source archive includes bounded three-query research advances, saved-result lease recovery, version-aware campaign summaries and a reproducible controlled research benchmark. Read docs/performance.md inside the archive for measured boundaries and limits. Generation, canonical evidence and semantic review remain required.
