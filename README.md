@@ -6,9 +6,9 @@ Campaign research for independent creative agencies. Turn a client brief into th
 
 ## Complete source
 
-The archive contains all 175 tracked files for deployed source `4578d4ac1cc25289ad04f345d3c97db752f13869`. Application code, migrations, tests and setup instructions are MIT-licensed. Qloo data, model services and third-party assets retain their own terms.
+The archive contains all 175 tracked files for deployed source `734ccd509953ea04673c87922e26064711e1da24`. Application code, migrations, tests and setup instructions are MIT-licensed. Qloo data, model services and third-party assets retain their own terms.
 
-Archive SHA256 `c9b87368b78356ed90be91e95c76e27d2bfcb02634f2e9965d33827ad80dcdd2`.
+Archive SHA256 `d589ab23f50f77d405df22c6c044890a6b2779a1189007145e866e3ae2fe9d70`.
 
 ```sh
 git clone https://github.com/VasuBansal7576/pitchproof.git
