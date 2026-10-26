@@ -6,9 +6,9 @@ Campaign research for independent creative agencies. Turn a client brief into th
 
 ## Complete source
 
-The archive contains all 175 tracked files for deployed source `f242e1a72d89fa6b0e9762df503833dd9dde0b3d`. Application code, migrations, tests and setup instructions are MIT-licensed. Qloo data, model services and third-party assets retain their own terms.
+The archive contains all 177 tracked files for deployed source `cc7208a1466b6c3985135632d6c2ccdec4df260d`. Application code, migrations, tests and setup instructions are MIT-licensed. Qloo data, model services and third-party assets retain their own terms.
 
-Archive SHA256 `409e6575897c325f123b6d115f47a9dfff9147e7d9915897b598ff4fff1c668f`.
+Archive SHA256 `78411586fb3087d83a0055100d817d2a77fc599074abb8fb092e1a5cb06c2de6`.
 
 ```sh
 git clone https://github.com/VasuBansal7576/pitchproof.git
@@ -32,7 +32,10 @@ Recorded stage attempts include failures. Request durations may overlap and do n
 
 ## Verification and limits
 
-The reliability release passes 141 deterministic behavior tests, TypeScript and production build checks. Tests use synthetic provider fixtures and local D1. Actual provider/browser and creative acceptance are separate gates; a passing test suite is not proof that every generated proposal is client-ready.
+Release v43 corrects pilot-message retry guidance and adds judge instructions, a founder briefing, conditional economics, and a blank agency-review worksheet. The current new generation and downstream live acceptance remain incomplete. Historical successful exercises do not close those gates.
+
+
+The reliability release passes 142 deterministic behavior tests, TypeScript and production build checks. Tests use synthetic provider fixtures and local D1. Actual provider/browser and creative acceptance are separate gates; a passing test suite is not proof that every generated proposal is client-ready.
 
 Qloo records retain exact entity IDs, reference roles, rank, original metrics, timestamps, query provenance and geographic scope. Only place research applies the requested location filter. Aggregate associations do not prove actual customer tastes, purchases, causality, product facts or endorsement. Inspiration does not grant advertising rights.
 
