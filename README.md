@@ -1,26 +1,14 @@
 # PitchProof
 
-Campaign research for independent creative agencies. Turn a client brief into three creative directions with cultural evidence and a small test plan.
+Campaign research for independent creative agencies. Turn a client brief into three campaign directions with cultural evidence and a plan to test them.
 
-[Open PitchProof](https://pitchproof-studio.zippy17.chatgpt.site)
+[Open PitchProof](https://pitchproof-studio.zippy17.chatgpt.site) · [Download complete source](pitchproof-source.tar.gz)
 
-## Verified workflow
+## Get the complete source
 
-The running-footwear workflow was exercised on the public deployment with real Qloo and Gemini on October 25, 2026. Checks covered exact brand confirmation, cross-category research, three directions, fresh feedback-led research and revision, choices, rejections, agency notes, immutable history and reload. Actual Qloo reference images appear in the workspace and printable brief.
+The archive contains all 163 tracked source files for deployed source `9c41bd5a360abde52cb10397cabb82848d8cfd7e`. It includes application code, assets, migrations, tests, setup instructions and judging drafts. The repository root keeps the MIT license visible.
 
-The app exports printable HTML, which can be printed to PDF, and Markdown with a preview and copy option. The embedded test browser cancels native file downloads. Its Markdown preview and copy path was verified instead. Four pages of the actual printed brief were visually inspected. A 390-pixel layout check does not establish real-phone hardware compatibility.
-
-Generated directions are proposals for agency review. The tests included rejecting an off-brief alternative and adding production controls before approving a selected direction. Qloo associations do not establish measured customer tastes, purchase intent or campaign performance.
-
-## Complete source
-
-Download [pitchproof-source.tar.gz](pitchproof-source.tar.gz). It contains all 152 tracked source files, assets, migrations, setup instructions, scripts, tests and the MIT license for the deployed source.
-
-Source commit `35eb2cb1016c2679f22cd01741271f71d6731380`.
-
-Archive SHA256 `b2160f732cfa4857b252796ba6a28c89237d8954e565aba2841ea242adf6cc20`.
-
-## Run locally
+Archive SHA256 `23dddf679892f0fa9cf8612127a9cc8e1281929d0006b17d1972dd58ea6bd4a5`.
 
 ```sh
 git clone https://github.com/VasuBansal7576/pitchproof.git
@@ -30,25 +18,38 @@ npm ci
 cp .env.example .dev.vars
 ```
 
-Add server credentials to the ignored `.dev.vars` file. Follow the extracted README to build, apply local D1 migrations and start the app. Extraction replaces this distribution page with the full setup guide. Never put keys in source or command arguments.
+Add server credentials to the ignored `.dev.vars` file. Follow the extracted README to build, apply the actual local D1 migration and start the app. Extraction replaces this distribution page with the full setup guide. Never put provider keys in code or command arguments. Actual provider research remains outside this public source archive.
 
-## Qloo-powered workflow
+## Working agency journey
 
-- Three exact reference-brand identities and their competitor, aesthetic or audience-proxy roles drive Qloo queries.
-- Research spans brands, artists, films, places and podcasts, with checkpointed results and explicit geographic scope.
-- Three creative hypotheses cite canonical observations from their own research run.
-- Feedback can request new categories and creates fresh research before revision.
-- Choices, rejections, agency notes and generation history remain persistent and separate from source observations.
-- Reference imagery, Markdown and printable HTML retain evidence provenance.
+Confirm three exact Qloo brand identities and their reference roles. Research associations across brands, artists, films, places and podcasts. Each new direction has a proposition, audience tension, product role, campaign mechanism, concrete ad execution and call to action. Each creative interpretation links to its exact canonical observation and states its uncertainty.
 
-A controlled same-brief and same-prompt comparison changed only reference brands. It returned 52 versus 51 distinct Qloo entities with one shared entity and materially different creative inspirations. This is evidence of reference sensitivity in that case, not a statistical claim about campaign effectiveness or an LLM-only benchmark.
+Reject unsuitable options, add agency notes and request a revision. Revisions include the chosen parent, notes and actual rejected propositions, then perform fresh research. Earlier generations remain unchanged. Export the selected proposal as editable Markdown or printable HTML.
 
-## Verification and limits
+An automated model check can reject a proposal before it enters history. It remains fallible. Agency review of facts, production feasibility and rights is required before client use. Server-owned pilot defaults require an approved budget, baseline-dependent sample calculation, comparable delivery and a predeclared decision rule. They include an inconclusive outcome and make no promise of campaign results.
 
-The current source passed 66 behavior tests, TypeScript and a production build. Local tests use synthetic fixtures. Actual provider and campaign artifacts remain outside this repository. The final release uses stateless Gemini Interactions requests, short model-local citation labels and strict mapping to canonical Qloo records. Invalid citations and unsupported visual references remain rejected.
+## Actual verification
 
-The opt-in `scripts/verify-live-flow.mjs` offers configuration preflight, storage-only checks and actual-provider API smoke. A script pass does not replace browser and semantic review. Guest workspaces are tied to the browser session. Product facts are entered by the agency; a website URL is context and is not scraped. Running footwear was the live verification category.
+The October 26 quality pass exercised real providers and the deployed browser app. A hypothetical built-in footwear example produced 54 real Qloo observations and three initial directions. Independent review accepted those directions as proposals with required production notes.
 
-## License and separate operator steps
+A separate uncommissioned Nike Pegasus 41 exercise retained its 54 initial observations and collected 36 fresh revision observations. Independent review accepted two revised proposals with production notes. An infeasible internal-component reveal was rejected. The selected route-sharing brief includes the operator's production decisions. Nike is not a client and has not endorsed the exercise.
 
-MIT applies to the application source. Qloo data, API access, model services and third-party assets retain their own terms. Confirm commercial rights and production pricing before selling briefs. Paid demand validation, real-phone hardware QA and Devpost submission remain separate steps.
+The selected brief's actual HTML and six-page A4 print output were inspected. The 390-pixel app, editable-text dialog and HTML brief were checked without horizontal overflow. Real-phone hardware testing remains open.
+
+The embedded browser blocks native downloads. Actual Markdown preview and manual select-and-copy were checked against export text. The Copy Markdown button showed a success message but did not match the immediate clipboard read, so that button alone is not claimed as verified delivery.
+
+The source passed 79 behavior tests, TypeScript and a production build. Local tests use synthetic provider fixtures. They are separate from actual provider and semantic reviews. The opt-in verification scripts distinguish preflight, storage-only checks and real-provider smoke. They do not replace browser or agency review.
+
+## What Qloo proves here
+
+Qloo supplies the actual association records, not decorative citations. The app retains reference IDs and roles, ranks, raw metrics, query parameters, timestamps and geographic scope. Only place research applies the requested geographic filter. No source record establishes actual customer taste, purchasing intent, endorsement or a product fact.
+
+A historical controlled same-brief comparison changed the reference brands and returned 52 versus 51 distinct entities with one shared entity. It supports reference sensitivity in that case. It is not an LLM-only comparison or proof of improved campaign effectiveness.
+
+## Separate operator decisions
+
+No external agency has reviewed the sample. The source includes a review worksheet, three sourced organizational contacts and unsent outreach drafts. No paid demand, time saving or campaign outcome is validated.
+
+The demo is public and free to use, with application and vendor capacity limits. Availability and Qloo key validity through the end of judging remain to be confirmed. No billing or recurring scheduler was enabled. No Devpost entry was submitted.
+
+MIT applies to application code. Qloo access, data, model services and third-party assets retain their own terms. Confirm commercial rights and production pricing before selling briefs. Inspiration references do not grant advertising rights or endorsement.
